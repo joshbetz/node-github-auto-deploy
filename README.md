@@ -19,3 +19,11 @@ The webserver can be configured with some environmental variables.
 
 * `PORT` - The port that the server runs on. Default: 3420
 * `SECRET` - The webhook secret. Default: none
+
+On Github, you'll need to:
+
+1. Add a 'Github Auto-Deployment' service.
+2. Add a webhook that fires on 'deployment' events.
+3. If the repo is private, add a deploy key.
+
+Note: By default, the Github Auto-Deployment service will create deployments every time code is pushed to `master`, but can also be configured to deploy on status contexts, like `ci/travis-ci` or `ci/circle-ci`.
