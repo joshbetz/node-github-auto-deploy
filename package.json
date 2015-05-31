@@ -1,11 +1,11 @@
 {
   "name": "github-auto-deploy",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Github auto deploy webhook server.",
   "main": "index.js",
   "repository": {
-	"type": "git",
-	"url": "https://github.com/joshbetz/node-github-auto-deploy.git"
+    "type": "git",
+    "url": "https://github.com/joshbetz/node-github-auto-deploy.git"
   },
   "scripts": {
     "test": "jshint index.js"
