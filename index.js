@@ -62,7 +62,6 @@ github.on('deployment', function(repo, ref, data) {
       console.error(stderr);
       console.log(stdout);
 
-      console.log(script);
       if (script) {
         child.execFile(script, { cwd: dir }, function(err, stdout, stderr) {
           if (err) {
