@@ -1,0 +1,20 @@
+{
+  "name": "github-auto-deploy",
+  "version": "0.0.1",
+  "description": "Github auto deploy webhook server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jshint index.js"
+  },
+  "author": "Josh Betz",
+  "license": "MIT",
+  "dependencies": {
+    "githubhook": "~1.2.0"
+  },
+  "devDependencies": {
+    "jshint": "^2.7.0"
+  },
+  "bin": {
+    "gad": "index.js"
+  }
+}
