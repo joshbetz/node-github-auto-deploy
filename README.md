@@ -33,9 +33,9 @@ Note: By default, the Github Auto-Deployment service will create deployments eve
 ## FAQ
 
 <dl>
-  <dt>Why are you using the `deployment` event?</dt>
-  <dd>The deployment event lets us deploy on status, like `ci/travis-ci`, which means we can require tests to pass before a deploy will run.</dd>
+  <dt>Why are you using the <code>deployment</code> event?</dt>
+  <dd>The deployment event lets us deploy on status, like <code>ci/travis-ci</code>, which means we can require tests to pass before a deploy will run.</dd>
   
-  <dt>Why are you using `git fetch` and `git checkout`?</dt>
+  <dt>Why are you using <code>git fetch</code> and <code>git checkout</code>?</dt>
   <dd>We want all changed files to be updated on the server as close to the same time as possible to avoid serving some old and some new files for a given request. Another approach is using symlinks and moving file pointers around.</dd>
 </dl>
