@@ -1,6 +1,6 @@
 {
   "name": "github-auto-deploy",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Github auto deploy webhook server.",
   "main": "index.js",
   "repository": {
