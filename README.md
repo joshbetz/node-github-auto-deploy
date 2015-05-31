@@ -1,5 +1,7 @@
 # Github Auto Deploy
 
+[![Build Status](https://travis-ci.org/joshbetz/node-github-auto-deploy.svg)](https://travis-ci.org/joshbetz/node-github-auto-deploy)
+
 ## Overview
 
 Usage: `gad </path/to/repo> [</path/to/post-deploy.sh>]`
