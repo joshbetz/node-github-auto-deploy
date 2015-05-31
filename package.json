@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "Github auto deploy webhook server.",
   "main": "index.js",
+  "repository": {
+	"type": "git",
+	"url": "https://github.com/joshbetz/node-github-auto-deploy.git"
+  },
   "scripts": {
     "test": "jshint index.js"
   },
